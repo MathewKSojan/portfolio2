@@ -1,0 +1,824 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background: linear-gradient(#000000,#0d1aa8,#6a0000); */
+    background-image: url(Untitled\ design.png);
+    /* background-image: url(Untitled design.png); */
+    background-size: contain;
+    background-color: black;
+    background-repeat: repeat-x;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+}
+
+
+.headnnav a{
+    color: #2ecc71;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    z-index: -1;
+}
+
+.headnnav a:hover{
+    color: #eee;
+}
+
+.navtxt a:hover{
+    color: #eee;
+}
+
+
+
+.nav{
+    display: flex;
+    float: right;
+    color: cadetblue;
+    padding-top: 0px;
+    font-size: 23px;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 6px;
+    z-index: -1;
+    text-align: center;
+    /* padding-right: 20px; */
+}
+
+
+.namenpic{
+    padding-top: 20px;
+    padding-left: 8%;
+    /* padding-right: 2cm; */
+    padding-bottom: 0cm;
+    position: relative;
+    
+}
+
+.head2{
+    padding-top: 14%;
+    padding-left: 8%;
+    
+}
+
+
+.iam{
+    padding-left: 8%;
+}
+
+.transition{
+    padding-left: 10%;
+    margin-bottom: 90%;
+    padding-left: 30%;
+}
+
+
+#menu-icon{
+     font-size: 35px;
+     color: #2ecc71;
+     cursor: pointer;
+     z-index: 10001;
+     display: none;
+}
+
+/* .namenpic a:hover{
+    opacity: 0;
+} */
+
+.about {
+    opacity: 0; /* start with the text hidden */
+    animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+  }
+
+  .experience {
+    opacity: 0; /* start with the text hidden */
+    animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+  }
+  .education{
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+      .projects {
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+      .contact {
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+     
+.aboutme{
+    font-size: 36px;
+    padding-bottom: 1%;
+}
+
+.blockquot{
+    font-style: italic ;
+    font-size: 22px;
+    padding-bottom: 1%;
+}
+
+.abt_para{
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+.about{
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.experience{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+    font-size: 20px;
+}
+
+.lidesc{
+    padding-bottom: 5%;
+}
+
+.projects{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.pro4{
+    font-size: 24px;
+}
+
+span{
+    color: #2ecc71;
+    }
+
+h3 {
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+.social a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background-color: #2ecc71;
+    transition: .4s;
+}
+
+.abt{
+    height: 50px;
+    width: 150px;
+    color: #eee;
+    background: rgba(255,255,255,0.1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 3px;
+    line-height: 24px;
+    border: 2px solid #2ecc71;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.aboutp{
+    height: 0px;
+    color: #eee;
+    background-color:rgba(255,255,255,0.1) ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.abt:hover{
+    background: transparent;
+    background-color: #2ecc71;
+    border:2px solid #9decbe;
+    color: #eee;
+    transition: .4s;
+}
+
+.edu-hd{
+    padding-left: 2cm;
+    padding-bottom: 2%;
+    font-size: 36px;
+    text-align: center; 
+    height: 10;padding-top: 2cm;
+    padding-left:0cm; 
+    text-align: center;    
+}
+
+.edu-sh{
+    padding-left: 15%;
+    padding-top: 0%;
+    font-size: 20px;
+}
+
+p.pro_c{
+    padding-left: 3%;
+    padding-right: 4%;
+    font-size: 20px;
+  }
+
+  .ul111{
+    text-align: center;
+  }
+
+.edu-ssh{
+    padding-left: 19cm;
+    padding-top: 0%;
+}
+
+.education{
+    padding-left: 10cm;
+    padding-right: 6%;
+  }
+
+.prooo{
+    text-align: center;
+    font-size: 36px;
+}
+
+.projects{
+    padding-top: 0%;
+    /* padding-bottom: 10%; */
+  }
+
+  h1.prooo{
+    padding-bottom: 1%;
+  }
+
+
+.pro_c{
+    padding-left: 11cm;
+    padding-right: 9cm;
+    padding-bottom: 1%;
+}
+
+.ehd{
+    font-size: 36px;
+    text-align: center; 
+    height: 10;
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
+.contact{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+.getintouchhead{
+    font-size: 36px;
+    padding-bottom: 2%;
+}
+
+.cnt_p{
+    padding-bottom: 1.5%;
+}
+
+.pinky{
+    color: rgb(255, 230, 230);
+    display: hidden;
+    display: none;
+    font-size: 60%;
+  }
+
+p.pinky{
+    display: none;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0; /* start with the text hidden */
+      transform: translateY(20px); /* move the text 20px down */
+    }
+    100% {
+      opacity: 1; /* end with the text fully visible */
+      transform: translateY(0); /* move the text back to its original position */
+    }
+  }
+
+
+
+.pro_div{
+    padding-top: 1.5cm;
+}
+
+.ex_hd{
+    padding-left: 16%;
+    font-size: 20;
+}
+
+.title{
+    padding-left: 40%;
+}
+
+.ph_img {
+    display: none;
+    height: 3%;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    /* Other image styles */
+  }
+
+  .hassh{
+    font-size: 3cm;text-align: center; font-weight: 900;color: rgba(172, 181, 219, 0.233); font-style: italic;
+  }
+
+  .cont {
+    text-align: center; /* Center-align the content horizontally */
+    margin: 0%;
+  }
+
+  .centered-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .heaaad{
+    font-size: 50px;
+  }
+
+  
+
+  .soc_loc{
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+
+
+  .input{
+    font-size: 50px;font-weight: 900;line-height: 1.2; display: inline;
+  }
+
+  div.social{
+    padding-left: 8%;
+    padding-top: 1.4%;
+    padding-bottom: 4%;
+    /* text-align: center; */
+  }
+
+  .desccc{
+    padding-top: .4%;
+    padding-left: 8.5%;
+    font-size: 100%;
+    font-weight: 200;
+  }
+
+  .desccc1{
+    padding-top: .5%;
+    padding-left: 8.5%;
+    font-size: 100%;
+    font-weight: 200;
+  }
+
+  .breaker{
+    display: none;
+  }
+  
+
+  @media (max-width: 767px) { /* Adjust this value as needed */
+
+    *{
+        padding-top: 0%;
+    }
+
+    body {
+      padding-left: 0;
+      background-color: black;
+      background-image: none;
+    }
+
+    .alignscene{
+        padding-top: 13%;
+    }
+
+    h3.head2{
+        padding-left: 4%;
+        padding-bottom: 2%;
+    }
+
+    h1.heaaad{
+        padding-left: 0%;
+        font-size: 40px;
+    }
+
+    .heaaad{
+        font-size: 40px;
+    }
+
+    .abt_para{
+        font-size: 17px;
+        text-align: left
+    }
+
+    .about{
+        padding-left: 3%;
+        padding-right: 2%;
+        padding-bottom: 10%;
+    }
+    
+    /* Specific styling for a particular element */
+    .namenpic {
+      padding-left: 0px; /* Adjust the padding value as needed */
+      padding-top: 5%;
+      margin: 10%;
+      width: auto;
+    }
+
+    .desccc{
+        padding-top: 3%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        font-size: 100%;
+        font-weight: 200;
+      }
+
+      .desccc1{
+        padding-top: .4%;
+        padding-left: 5%;
+        font-size: 100%;
+        font-weight: 200;
+      }
+
+    .headnnav {
+        padding-left: 0px; /* Adjust the padding value as needed */
+        padding-top: 0%;
+      }
+
+    .experience{
+        padding-left: 0px;
+        padding-bottom: 17%;
+    }
+
+    
+
+    h4.ex_hd{
+        padding-left: 0px;
+    }
+    
+
+    .social{
+        padding-top: 0%;
+    }
+
+    div.social{
+        /* padding-left: 5%; */
+        margin-top: 4%;
+        padding-top: 6%;
+        padding-left: 0%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img1{
+        display: none;
+    }
+    
+    
+    .cont{
+        align-items: center;
+        text-align: center;
+    }
+
+    p.cnt_p{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 8%;
+    }
+
+    .edu-sh{
+        padding-left: 0%;
+    }
+
+    .hassh{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    p.edu-sh{
+        margin-top: 1%;
+        margin-bottom: 0%;
+        padding-left: 1%;
+      }
+
+    .pic_ctrl{
+        display: none;
+    }
+
+    .edu-ssh{
+        padding-left: 0%;
+        padding-bottom: 10%;
+    }
+
+
+    .pro_div{
+        padding-left: 0%;
+        font-size: 17px;
+    }
+
+    .pro_c{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 17px;
+    }
+
+    p.pro_c{
+        font-size: 17px;
+    }
+
+    .ph_img{
+        width: 10px;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        align-items: center; 
+        text-align: center; 
+        align-content: center;
+    }
+
+    div.cont{
+        text-align: center;
+    }
+
+    .soc_loc{
+        padding-top: 4%;
+    }
+    
+    .iam{
+        padding-left: 5%;
+        font-size: 80%;
+        font-size: 50px; color: rgb(255, 255, 255);font-weight: 900;line-height: 1.2; display: inline;margin-bottom: 50%;
+    }
+
+    .projects{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .input{
+        margin-bottom: 60px;
+        padding-left: 60%;
+    }
+
+    .education{
+        padding-bottom: 8%;
+    }
+
+
+    .ph_img{
+        display: block;
+        /* height: 0%; */
+        width: auto;
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+    }   
+
+
+    .nav{
+        display: none;
+        pointer-events: none;
+    }
+
+    .namenpic{
+        padding-top: 0px;        
+        margin-bottom: 10%;
+        display: inline;
+    }
+
+    h1.namenpic{
+        display: inline;
+        margin-bottom: 30%;
+        
+    }
+
+    span.input{
+        font-size: 40px;
+        position: relative;
+        margin-bottom: 40%;
+        padding-top: 0%;
+        padding-left: 3%;
+        }
+
+    .breaker{
+        display: block;
+    }
+    }
+
+    .cont{
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    .head1{
+        padding-top: 0%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        
+    }
+
+    .head2{
+        padding-bottom: 4%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        display: inline;
+    }
+
+    h1.heaaad{
+        /* font-size: 50px; */
+    }
+
+    h3.head2{
+        padding-top: 15%;
+        /* margin-bottom: 5%; */
+    }
+
+    img.ph_img{
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .iam{
+        display: inline;
+    }
+    .pinky{
+        display: inline;
+        color: rgb(194, 191, 191);
+        padding-bottom: 10%;
+        font-size: 30px;
+    }
+
+    .prooo{
+        font-size: 36px;
+        padding-bottom: 10%;
+    }
+
+    p.pro_c{
+        padding-bottom: 5%;
+        font-size: 17px;
+    }
+
+
+    .ele{
+        /* display: block;  */
+      }
+
+    .moststruggled{
+        margin: 0cm;
+        display: flex;
+        display: inline;
+    }
+
+    .about{
+        font-size: larger;
+    }
+
+    .experience{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .exhdd{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .education{
+        padding-left: 6%;
+        
+    }
+
+    education.education{
+        padding-left: 0% ;
+    }
+
+    p.cnt_p{
+        padding-bottom: 3%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 17px;
+    }
+  }
+
+  
+
+  .eduuu{
+    padding-left: 20%;
+  }
+
+  h4.ex_hd{
+    margin-bottom: 0%;
+    font-size: larger;
+  }
+  
+  p.edu-sh{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding-left: 18%;
+    /* padding-left: 19%; */
+  }
+
+  p.edu-ssh{
+    /* margin-top: 1%; */
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left:22%;
+  }
+
+  h1.edu-hd{
+    padding-top: 4%;
+  }
+
+  
+  
+  div.pro_div{
+    padding-top: 0%;
+    padding-left: 2%;
+  }
+
+  /* pro_c */
+
+  h4.pro4{
+    margin-bottom: 0%;
+  }
+
+  
+
+  h1.head1{
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .soc_loc{
+    padding-top: 2px%;
+    padding-bottom: 1px;
+  }
+
+
+
+
+
+
+
+
+
+  /* slider section */
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clider{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide{
+    width: 100%;
+}
